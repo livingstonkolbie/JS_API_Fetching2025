@@ -29,9 +29,13 @@ async function showNameAndGender() {
 
     counting++;
 
-    let para = document.createElement("p");
-    para.innerText = charGender.gender;
+    // this method BELOW will replace the innerText area each time
+    genderBox.innerText = charGender.gender;
 
-    genderBox.appendChild(para);
+    // this method BELOW will ADD onto the last thing- make a list
+    // let para = document.createElement("p");
+    // para.innerText = charGender.gender;
+
+    // genderBox.appendChild(para);
 
 }
