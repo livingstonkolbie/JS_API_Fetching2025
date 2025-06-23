@@ -44,7 +44,7 @@ async function fetchData(currentCount) {
 
                 currentChar = data;
 
-                //  below we recieved [object Obkject]
+                //  below we recieved [object Object]
                 // charPlacement.innerText = currentChar;
 
             })
